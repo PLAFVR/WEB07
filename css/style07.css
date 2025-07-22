@@ -1,0 +1,31 @@
+#main {
+    width: 90%;
+    height: auto;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: solid black 1px;
+    text-align: center;
+}
+tbody {
+    background-color: beige;
+}
+caption {
+    font-size: 35px;
+}
+thead{
+    background-color: coral;
+
+}
+thead tr:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+tbody td:first-of-type {
+    font-weight: bold;
+}
+td[colspan]{
+    text-align: center;
+}
