@@ -34,7 +34,6 @@ dl {
     display: table;
     border-collapse: collapse;
     width: 100%;
-    table-layout: fixed;
 }
 dl div {
     display: table-row;
@@ -42,7 +41,6 @@ dl div {
 dt, dd {
     display: table-cell;
     border: 1px solid black;
-    vertical-align: top;
     padding: 10px;
 }
 dd {
