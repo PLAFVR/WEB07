@@ -30,10 +30,14 @@ td[colspan]{
     text-align: center;
 }
 
-dl {
-    display: table;
+
+
+
+dl ,div{
+    display: table-row;
     border-collapse: collapse;
     width: 100%;
+    table-layout: fixed;
 }
 dl div {
     display: table-row;
@@ -41,8 +45,21 @@ dl div {
 dt, dd {
     display: table-cell;
     border: 1px solid black;
+    vertical-align: top;
     padding: 10px;
 }
 dd {
-    width: 30%;
+    display: table-cell;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 10px;
+    width: 25%;
+}
+dl div:first-of-type {
+    text-align: center;
+    font-weight: bold;
+}
+div dt:first-of-type {
+    text-align: center;
+    font-weight: bold;
 }
